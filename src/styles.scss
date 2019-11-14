@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.custom-page {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form-blog {
+  margin-top: 1rem;
+}
+
+.btn-add-post {
+  margin-top: 1rem;
+}
+.text-blog {
+  padding: 1rem;
+  border: #ccc 1px dotted;
+  margin: 0.7 rem 0;
+  width: 100%;
+}
