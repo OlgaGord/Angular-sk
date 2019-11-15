@@ -21,4 +21,8 @@ export class AppComponent {
     },
     { title: "My places", text: "My favorite place is Paris", id: 2 }
   ];
+  updatePost(post: Post) {
+    this.posts.unshift(post);
+    console.log("Post:", post);
+  }
 }

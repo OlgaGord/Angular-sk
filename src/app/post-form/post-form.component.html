@@ -1,7 +1,19 @@
 <div>
   <div class="form-group">
-    <input type="text" class="form-control form-blog" placeholder="Title" />
-    <input type="text" class="form-control form-blog" placeholder="Text" />
-    <button class="btn btn-primary btn-add-post">Add Post</button>
+    <input
+      type="text"
+      class="form-control form-blog"
+      placeholder="Title"
+      [(ngModel)]="title"
+    />
+    <input
+      type="text"
+      class="form-control form-blog"
+      placeholder="Text"
+      [(ngModel)]="text"
+    />
+    <button class="btn btn-primary btn-add-post" (click)="addPost()">
+      Add Post
+    </button>
   </div>
 </div>

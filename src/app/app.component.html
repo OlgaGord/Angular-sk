@@ -1,6 +1,6 @@
 <div class="container">
   <h1 class="page-header text-primary custom-page">Olga's blog</h1>
-  <app-post-form></app-post-form>
+  <app-post-form (onAdd)="updatePost($event)"></app-post-form>
 
   <hr />
 
